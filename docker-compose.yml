@@ -8,7 +8,7 @@ services:
       environment: 
         POSTGRES_DB: auth-db
         POSTGRES_USER: admin
-        POSTGRES_PASSWORD: 1234
+        POSTGRES_PASSWORD: admin
       networks:
         - auth   
       ports:
@@ -20,7 +20,7 @@ services:
       environment: 
         POSTGRES_DB: auth-db
         POSTGRES_USER: admin
-        POSTGRES_PASSWORD: 1234
+        POSTGRES_PASSWORD: admin
       networks:
         - auth     
       ports:
