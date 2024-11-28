@@ -1,5 +1,3 @@
-version: '3'
-
 services: 
 
     stateless-auth-db:
@@ -33,6 +31,57 @@ services:
        - auth  
       ports:
         - "6379:6379"  
+
+    stateless-auth-api:
+      build: './stateless/stateless-auth-api'
+      container_name: stateless-auth-api
+      depends_on:
+        - stateless-auth-db
+     
+      networks:
+        - auth
+      environment:
+        - DB_HOST=stateless-auth-db
+        - DB_NAME=auth-db
+        - DB_USER=admin
+        - DB_PASSWORD=admin
+        - DB_PORT=5432
+      ports:
+        - 8080:8080  
+
+    stateless-any-api:
+      build: './stateless/stateless-any-api'
+      container_name: stateless-any-api
+      depends_on:
+        - stateless-auth-db
+      networks:
+        - auth
+      ports:
+        - 8081:8081
+
+    stateful-auth-api:
+      build: './stateful/stateful-auth-api'
+      container_name: stateful-auth-api
+      depends_on:
+        - stateful-auth-db
+      networks:
+        - auth
+      environment:
+        - DB_HOST=stateful-auth-db
+        - DB_NAME=auth-db
+        - DB_USER=admin
+        - DB_PASSWORD=admin
+        - DB_PORT=5432
+      ports:
+        - 8082:8082 
+        
+    stateful-any-api:
+      build: './stateful/stateful-any-api'
+      container_name: stateful-any-api
+      networks:
+        - auth
+      ports:
+        - 8083:8083                     
 
 networks:
   auth: 

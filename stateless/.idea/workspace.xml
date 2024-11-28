@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8b845d5-f645-4ef4-8bed-fca4332d6c27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/stateless-any-api.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/dto/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/JWTService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/StatefulAnyApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/infra/exception/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/infra/exception/ExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/infra/exception/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/stateful-any-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/StatefulAuthApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/core/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/infra/exception/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/infra/exception/ExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/infra/exception/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/stateful-auth-api/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/stateless-auth-api.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/stateless-auth-api.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/StatelessAnyApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/infra/exception/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/infra/exception/ExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/infra/exception/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/stateless-any-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/StatelessAuthApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/infra/exception/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/infra/exception/ExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/infra/exception/ExceptionGlobalHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/infra/exception/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api/src/main/resources/import.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/stateless-any-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/stateless-auth-api">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RamonBecker"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RamonBecker/ms-auth.git",
+    "accountId": "a687374d-1426-44b8-a446-1e134ce724a1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2pRj6ZFfsJKyCExCcvVeliE1v6e" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build stateless-auth-api.executor": "Run",
+    "Gradle.stateless-auth-api [:br.com.microservice.stateless_auth_api.StatelessAuthApiApplication.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8b845d5-f645-4ef4-8bed-fca4332d6c27" name="Changes" comment="" />
+      <created>1732735609491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732735609491</updated>
+    </task>
+    <servers />
+  </component>
+</project>

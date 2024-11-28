@@ -4,18 +4,18 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/stateless-any-api/stateless-any-api" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stateless-any-api" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/stateless-any-api/stateless-any-api" />
+            <option value="$PROJECT_DIR$/stateless-any-api" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stateless-auth-api" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/stateless-auth-api/stateless-auth-api" />
+            <option value="$PROJECT_DIR$/stateless-auth-api" />
           </set>
         </option>
       </GradleProjectSettings>
