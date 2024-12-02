@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b845d5-f645-4ef4-8bed-fca4332d6c27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/dto/AuthUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateful/stateful-auth-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/dto/AnyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/JwtService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stateless-any-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-any-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/StatelessAuthApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/StatelessAuthApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
