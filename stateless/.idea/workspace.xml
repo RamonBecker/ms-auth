@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b845d5-f645-4ef4-8bed-fca4332d6c27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/infra/PasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/dto/AuthUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-auth-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateful/stateful-auth-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-any-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/StatelessAuthApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/StatelessAuthApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +85,31 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.microservice.stateless_any_api.core.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StatelessAuthApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.microservice.stateless_auth_api.StatelessAuthApiApplication" />
+      <module name="stateless-auth-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.microservice.stateless_auth_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StatelessAuthApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -23,7 +23,7 @@ public class AuthService {
 
         var user = userRepository
                 .findByUsername(request.username())
-                .orElseThrow(() -> new ValidationException("User not found!"));
+                .orElseThrow(() -> new ValidationException("Incorrect username or password!"));
 
 
         var accessToken = jwtService.createToken(user);
@@ -35,8 +35,12 @@ public class AuthService {
     }
 
     private boolean validatePassword(String rawPassword, String encoderPassword) {
+
+        if(isEmpty(rawPassword))
+            throw  new ValidationException("Incorrect username or password!");
+
         if (!passwordEncoder.matches(rawPassword, encoderPassword))
-            throw new ValidationException("The password is incorrect!");
+            throw new ValidationException("Incorrect username or password!");
         
         return true;
     }
