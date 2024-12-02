@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b845d5-f645-4ef4-8bed-fca4332d6c27" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/controller/AnyController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/AnyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/JwtService.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/infra/PasswordEncoderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 7cca0537f82e52a32a169d02530a7cf38a30ccff
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +87,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.microservice.stateless_any_api.core.dto" />
@@ -119,6 +127,8 @@
       </list>
     </recent_temporary>
   </component>
+=======
+>>>>>>> 7cca0537f82e52a32a169d02530a7cf38a30ccff
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
