@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8b845d5-f645-4ef4-8bed-fca4332d6c27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/dto/AnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/controller/AnyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/AnyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless-any-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-any-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-any-api/src/main/java/br/com/microservice/stateless_any_api/core/service/JwtService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,20 @@
       <recent name="br.com.microservice.stateless_any_api.core.dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StatelessAuthApiApplication">
+    <configuration name="StatelessAnyApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.microservice.stateless_any_api.StatelessAnyApiApplication" />
+      <module name="stateless-any-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.microservice.stateless_any_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatelessAuthApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.microservice.stateless_auth_api.StatelessAuthApiApplication" />
       <module name="stateless-auth-api.main" />
@@ -101,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatelessAnyApiApplication" />
         <item itemvalue="Application.StatelessAuthApiApplication" />
       </list>
     </recent_temporary>

@@ -26,34 +26,33 @@ public class JwtService {
     @Value("${app.token.secret-key}")
     private String secretKey;
 
-    public AuthUserResponse getAutheticateUser(String token){
-       var tokenClaims = getClaims(token);
+    public AuthUserResponse getAutheticateUser(String token) {
+        var tokenClaims = getClaims(token);
 
-       var id = Integer.valueOf((String) tokenClaims.get("id"));
-       var username = (String) tokenClaims.get("username");
+        var id = Integer.valueOf((String) tokenClaims.get("id"));
+        var username = (String) tokenClaims.get("username");
 
-       return new AuthUserResponse(id, username);
+        return new AuthUserResponse(id, username);
 
     }
 
- /*   public void validateAccessToken(String token){
-        getClaims(token);
-    }*/
+    public boolean validateAccessToken(String token) {
+        return getClaims(token) != null;
+    }
 
-
-    private Claims getClaims(String token){
+    private Claims getClaims(String token) {
         var accessToken = extractToken(token);
 
         try {
 
-          return  Jwts
+            return Jwts
                     .parser()
                     .setSigningKey(generateSign())
                     .build()
                     .parseClaimsJws(accessToken)
                     .getBody();
         } catch (Exception ex) {
-            throw new AuthenticationException("Invalid token "+ ex.getMessage());
+            throw new AuthenticationException("Invalid token " + ex.getMessage());
         }
     }
 
