@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/stateful-any-api/stateful-any-api" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stateful-any-api" />
+        <option name="gradleJvm" value="23" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/stateful-any-api/stateful-any-api" />
+            <option value="$PROJECT_DIR$/stateful-any-api" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/stateful-auth-api/stateful-auth-api" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stateful-auth-api" />
+        <option name="gradleJvm" value="23" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/stateful-auth-api/stateful-auth-api" />
+            <option value="$PROJECT_DIR$/stateful-auth-api" />
           </set>
         </option>
       </GradleProjectSettings>
