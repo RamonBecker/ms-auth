@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7a61ae-f104-4c76-86b7-28c40e16a349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../stateful/stateful-auth-api/src/main/java/br/com/microservice/stateful_auth_api/core/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateful/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/client/TokenClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateful/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/infra/HttpInterfaceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stateful/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateful/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateful/stateful-any-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateful/stateful-any-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateless-auth-api/src/main/java/br/com/microservice/stateless_auth_api/core/controller/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
