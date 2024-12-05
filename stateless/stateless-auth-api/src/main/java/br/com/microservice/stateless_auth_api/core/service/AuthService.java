@@ -26,23 +26,22 @@ public class AuthService {
                 .orElseThrow(() -> new ValidationException("Incorrect username or password!"));
 
 
-
         var accessToken = jwtService.createToken(user);
 
-        if (validatePassword(request.password(), user.getPassword()))
-            return new TokenDTO(accessToken);
+        if (!validatePassword(request.password(), user.getPassword()))
+            throw new ValidationException("Unable to login!");
 
-        throw new ValidationException("Unable to login!");
+        return new TokenDTO(accessToken);
     }
 
     private boolean validatePassword(String rawPassword, String encoderPassword) {
 
-        if(isEmpty(rawPassword))
-            throw  new ValidationException("Incorrect username or password!");
+        if (isEmpty(rawPassword))
+            throw new ValidationException("Incorrect username or password!");
 
         if (!passwordEncoder.matches(rawPassword, encoderPassword))
             throw new ValidationException("Incorrect username or password!");
-        
+
         return true;
     }
 
