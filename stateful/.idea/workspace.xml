@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b956ac-3702-46d5-9ea0-d7d7b7b0ab7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/dto/AnyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/dto/AuthUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/service/AnyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/service/TokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/client/TokenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/client/TokenClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stateless/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateless/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
