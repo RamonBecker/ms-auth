@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b956ac-3702-46d5-9ea0-d7d7b7b0ab7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/service/AnyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stateful-any-api/src/main/java/br/com/microservice/stateful_any_api/core/controller/AnyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateless/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateless/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +75,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.stateful-any-api [:br.com.microservice.stateful_any_api.StatefulAnyApiApplication.main()].executor": "Run",
     "Gradle.stateful-auth-api [:br.com.microservice.stateful_auth_api.StatefulAuthApiApplication.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -91,7 +90,20 @@
       <recent name="C:\Users\Ramon Becker\Documents\GitHub\ms-auth\stateful\stateful-auth-api\src\main\java\br\com\microservice\stateful_auth_api\core\repository" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StatefulAuthApiApplication">
+    <configuration name="StatefulAnyApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.microservice.stateful_any_api.StatefulAnyApiApplication" />
+      <module name="stateful-any-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.microservice.stateful_any_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatefulAuthApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.microservice.stateful_auth_api.StatefulAuthApiApplication" />
       <module name="stateful-auth-api.main" />
@@ -107,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatefulAnyApiApplication" />
         <item itemvalue="Application.StatefulAuthApiApplication" />
       </list>
     </recent_temporary>
