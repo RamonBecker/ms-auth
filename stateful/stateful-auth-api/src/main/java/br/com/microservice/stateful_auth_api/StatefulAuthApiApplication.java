@@ -9,5 +9,4 @@ public class StatefulAuthApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StatefulAuthApiApplication.class, args);
 	}
-
 }
